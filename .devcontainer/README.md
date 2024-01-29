@@ -67,3 +67,12 @@ To access a port from your host to your development container, publish a port in
 
 1. In [devcontainer.json](devcontainer.json), change the line `"runServices": ["vscode"],` to `"runServices": ["vscode", "database"],`.
 1. In the VS code command palette, rebuild the container.
+
+## To make fonts and icons of zsh work
+
+1. Install [MesloLGS Fonts](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#fonts) on your local machine.
+1. Set font of vscode terminal to "MesloLGS NF":
+
+- File > Preferences > settings
+- Use the search bar to search for 'terminal.integrated.fontFamily'
+- Change the User value to 'MesloLGS NF'
